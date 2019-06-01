@@ -1,6 +1,6 @@
 FROM alpine:3.9.4
 
-EXPOSE 5000
+EXPOSE 80
 WORKDIR /app
 ENTRYPOINT ["nginx", "-c",  "/nginx.conf"]
 
